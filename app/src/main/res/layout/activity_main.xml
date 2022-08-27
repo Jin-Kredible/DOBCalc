@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/bgColor"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textBlue"
+        android:text="Calculate YouR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="AGE"
+        android:background="@color/textBlue"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textBlue"
+        android:text="in Minutes"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonDatePicker"
+        android:textColor="@color/white"
+        android:text="Click Here"
+        android:backgroundTint="@color/textBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B53E63"
+        android:text="14/09/2021"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#727A7D"
+        android:text="Selected Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/timeinMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B53E63"
+            android:text="1440"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#727A7D"
+            android:text="in minutes till date"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
